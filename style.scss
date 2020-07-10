@@ -1,0 +1,107 @@
+* {
+  scroll-behavior: smooth;
+}
+
+.container {
+  margin-bottom: 100px;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #50c878;
+  border: none;
+  color: white;
+  padding: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+#myBtn:hover {
+  background-color: #4ad4c6;
+}
+
+div {
+  h1,
+  h2 {
+    font-size: 40px;
+    font-weight: 300;
+  }
+
+  span {
+    font-weight: bold;
+  }
+
+  .intro,
+  .tagline {
+    margin: 50px auto;
+  }
+}
+
+.social_icons {
+  ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  li {
+    padding: 30px;
+  }
+
+  li a:hover {
+    opacity: 0.5;
+  }
+
+  img {
+    width: 25px;
+  }
+}
+
+.title h1 {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #50c878;
+  font-size: 24px;
+}
+
+.project_card {
+  background-color: #50c878;
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  margin-bottom: 20px;
+
+  // .project_card_details {
+  //   padding: 30px;
+  //   .project_card_desc {
+  //     padding-right: 5em;
+  //   }
+  // }
+}
+
+.project_card:hover {
+  background-color: #4ad4c6;
+}
+
+.contact_box {
+  -webkit-filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.161));
+  background-color: yellow;
+  padding: 60px;
+  text-align: left;
+
+  h1 {
+    font-weight: bold;
+  }
+}
+
+.footer {
+  font-size: 18px;
+  font-weight: bold;
+}
